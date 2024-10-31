@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Figtree', sans-serif;
+}
+label {
+    font-weight: 500;
+    display: block;
+    margin-top: 10px;
+    color: aliceblue;
+}
+input, textarea, button {
+    display: block;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+button {
+    margin-top: 15px;
+    background-color: #526D82;
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #9DB2BF;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    padding-top: 10vh;
+}
